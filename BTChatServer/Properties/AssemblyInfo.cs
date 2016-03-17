@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // アセンブリに関する一般情報は以下の属性セットをとおして制御されます。
 // アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更してください。
-[assembly: AssemblyTitle("BTChatsPrompt")]
+[assembly: AssemblyTitle("BTChatServer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BTChatsPrompt")]
+[assembly: AssemblyProduct("BTChatServer")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // このプロジェクトが COM に公開される場合、次の GUID が typelib の ID になります
-[assembly: Guid("4073d0ac-ac62-4c0b-82ba-7a9e12a1b6ee")]
+[assembly: Guid("6800f515-baf0-44e5-ba25-75bf8e775a46")]
 
 // アセンブリのバージョン情報は次の 4 つの値で構成されています:
 //

@@ -2,4 +2,8 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">TabletMouse</string>
+  <string name="InitMsg">Type Here!</string>
+  <string name="send">Send</string>
+  <string name="ToggleOn">Connecting</string>
+  <string name="ToggleOff">Disconnected</string>
 </resources>

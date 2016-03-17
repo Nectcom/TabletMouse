@@ -3,11 +3,36 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    >
-<Button  
-    android:id="@+id/MyButton"
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/Hello"
-    />
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_line"
+        android:text="@string/InitMsg" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/send_button"
+        android:text="@string/send" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <Spinner
+            android:id="@+id/bt_list"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
+        <ToggleButton
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/state_toggle"
+            android:textOff="@string/ToggleOff"
+            android:textOn="@string/ToggleOn" />
+    </LinearLayout>
 </LinearLayout>
